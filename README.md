@@ -145,6 +145,30 @@ Planet's `Cosmo_Installer_V23_auto.sh` does via `dd`.)
 
 ---
 
+## Apps tuned for the Cosmo
+
+Once you're on V23 and the battery behaves, here's software built *specifically*
+for the Cosmo's landscape clamshell and physical QWERTY:
+
+- **[PalmVellum](https://github.com/palmvellum/palmvellum)** — a local-first,
+  Palm‑inspired organizer (Date Book, Address, To Do, Memo, Note Pad, Expense,
+  Mail; works fully offline, with optional cloud sync + AI). It ships a dedicated
+  **Cosmo edition** as a separate build flavor (`cosmo`), installable *alongside*
+  the standard portrait build:
+  - **Landscape‑locked** UI sized for the 2160×1080 main display.
+  - A **left icon rail** (with a home button) instead of the bottom button bar.
+  - **Two‑pane master/detail** layouts — Date Book (calendar + day), Address,
+    To Do, Memo, Mail, Expense — that actually use the wide screen.
+  - **Inline title‑bar filters/search** to save vertical height.
+
+  Build it from source: from `packages/android-native/`, run
+  `./gradlew :app:assembleCosmoDebug` (output: `app-cosmo-debug.apk`).
+  UI spec: [`docs/cosmo-ui-spec.md`](https://github.com/palmvellum/palmvellum/blob/main/docs/cosmo-ui-spec.md).
+
+*Got another Cosmo‑tuned app? PRs to this list welcome.*
+
+---
+
 ## Credits / sources
 
 - Diagnosis & write‑up: community effort, 2026.
