@@ -161,9 +161,14 @@ for the Cosmo's landscape clamshell and physical QWERTY:
     To Do, Memo, Mail, Expense — that actually use the wide screen.
   - **Inline title‑bar filters/search** to save vertical height.
 
-  Build it from source: from `packages/android-native/`, run
-  `./gradlew :app:assembleCosmoDebug` (output: `app-cosmo-debug.apk`).
+  **Download** the Cosmo APK from
+  [PalmVellum Releases → `android-v0.1.0`](https://github.com/palmvellum/palmvellum/releases/tag/android-v0.1.0)
+  (grab `PalmOrganizers-0.1.0-cosmo.apk`), or build from source — from
+  `packages/android-native/`, run `./gradlew :app:assembleCosmoDebug`.
   UI spec: [`docs/cosmo-ui-spec.md`](https://github.com/palmvellum/palmvellum/blob/main/docs/cosmo-ui-spec.md).
+
+  > ⚠️ Not on the Play Store — a sideload (debug‑signed) APK, not Play‑reviewed.
+  > Allow "Install unknown apps", then install. No warranty; use at your own risk.
 
 *Got another Cosmo‑tuned app? PRs to this list welcome.*
 
