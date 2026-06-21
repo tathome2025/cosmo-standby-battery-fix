@@ -170,6 +170,12 @@ for the Cosmo's landscape clamshell and physical QWERTY:
   > ⚠️ Not on the Play Store — a sideload (debug‑signed) APK, not Play‑reviewed.
   > Allow "Install unknown apps", then install. No warranty; use at your own risk.
 
+- **[CosmoHID — Bluetooth keyboard relay](https://github.com/tathome2025/cosmo-bluetooth-keyboard)**
+  — turns the Cosmo into a real **Bluetooth keyboard** for another device (e.g. an
+  OPPO Find N2): its physical keys send live HID keystrokes to the host, fully
+  offline, no app on the host and no root. Build it from source with
+  `./gradlew :app:assembleDebug`.
+
 *Got another Cosmo‑tuned app? PRs to this list welcome.*
 
 ---
